@@ -4,18 +4,8 @@ import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
-init : () -> (Model, Cmd Msg)
-init _ = (0, Cmd.none)
-
-type Msg = Abc
-
-type alias Model = Int
-
-update : Msg -> Model -> (Model, Cmd Msg)
-update msg model = (model, Cmd.none)
-
-view : Model -> Html Msg
-view model =
+main : Html a
+main =
     div [ class "centered-form" ] 
     [
         h1 [] [ text "Join" ],
@@ -31,6 +21,3 @@ view model =
             button [] [ text "Join" ]
         ]
     ]
-
-main = Browser.element 
-    { init = init, subscriptions = (\_ -> Sub.none), update = update, view = view }

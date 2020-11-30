@@ -17,4 +17,8 @@ $ git clone https://github.com/dharmatech/mead-chat-app-elm.git
 $ cd mead-chat-app-elm
 $ npm install
 $ npm run dev
+
+Load the following in your browser:
+
+    http://localhost:3000/
 ```

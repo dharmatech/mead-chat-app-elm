@@ -9,3 +9,12 @@ One of the projects in the course is a chat app. This repository contains that c
 # What does the chat app look like?
 
 ![](https://i.imgur.com/q4gG6S8.png)
+
+# Download and setup instructions
+
+```
+$ git clone https://github.com/dharmatech/mead-chat-app-elm.git
+$ cd mead-chat-app-elm
+$ npm install
+$ npm run dev
+```

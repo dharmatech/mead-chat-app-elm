@@ -6,6 +6,8 @@ The following is a popular Udemy course on Node.js:
 
 One of the projects in the course is a chat app. This repository contains that chat app with the front end converted to [Elm](https://elm-lang.org/).
 
+Elm [ports](https://guide.elm-lang.org/interop/ports.html) are used with [socket.io](https://socket.io/).
+
 # What does the chat app look like?
 
 <img src="https://i.imgur.com/q4gG6S8.png" width="500">

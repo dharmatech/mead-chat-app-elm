@@ -5303,7 +5303,7 @@ var $author$project$Main$update = F2(
 											$author$project$Main$Text(message)
 										]))
 							}),
-						$author$project$Main$jumpToBottom('#messages'));
+						$author$project$Main$jumpToBottom('messages'));
 				} else {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				}
@@ -5356,7 +5356,7 @@ var $author$project$Main$update = F2(
 										])),
 								send_location_button_enabled: true
 							}),
-						$author$project$Main$jumpToBottom('#messages'));
+						$author$project$Main$jumpToBottom('messages'));
 				} else {
 					return _Utils_Tuple2(
 						_Utils_update(

@@ -186,7 +186,7 @@ update msg model =
                 Ok message -> 
                     (
                         { model | messages = List.append model.messages [ (Text message) ] }, 
-                        jumpToBottom "#messages"
+                        jumpToBottom "messages"
                     )
                 Err _ -> (model, Cmd.none)
         
@@ -222,7 +222,7 @@ update msg model =
                                     model.messages ++ [ (Location location_message) ],
                                 send_location_button_enabled = True
                         },
-                        jumpToBottom "#messages"
+                        jumpToBottom "messages"
                     )
                 Err _ -> ({ model | send_location_button_enabled = True }, Cmd.none)
 
